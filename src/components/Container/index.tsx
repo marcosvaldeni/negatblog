@@ -6,6 +6,7 @@ interface ContainerProps {
 
 export function Container({ children }: ContainerProps) {
   return (
-    <div className="bg-base-title container mx-auto">{children}</div>
+    <div className="container mx-auto px-3">{children}</div>
   );
 }
+  
