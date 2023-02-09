@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'header': "url('/background.svg')",
+      },
       blur: {
         '3xl': '106px'
       },
